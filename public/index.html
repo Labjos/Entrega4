@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega BackEnd</title>
+</head>
+<body>
+
+    <h1>Ingreso de productos</h1>
+
+    <form action="/productos" method="POST">
+        <input type="text" name="Marca" placeholder="Ingresa Marca">
+        <input type="number" name="Precio" placeholder="Ingresa Precio">
+        
+        <button type="submit">Agregar Producto</button>
+    </form>
+
+    <form action="/profile" method="POST" enctype="multipart/form-data">
+        <input type="file" name="avatar" placeholder="elegir Imagen">
+        <button type="submit">Subir Imagen</button>
+    </form>
+
+
+    
+</body>
+</html>
